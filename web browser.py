@@ -69,9 +69,3 @@ app = QApplication(sys.argv)
 QApplication.setApplicationName("RPBrowser")
 window = MainWindow()
 app.exec_()
-
-
-
-
-
-
