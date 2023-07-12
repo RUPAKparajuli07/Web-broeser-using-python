@@ -34,8 +34,6 @@ class MainWindow(QMainWindow):
         refresh_button.triggered.connect(self.browser.reload)
         navigation_bar.addAction(refresh_button)
         
-        
-
         # # Add the address bar to the navigation bar
         # self.address_bar = QLineEdit()
         # self.address_bar.returnPressed.connect(self.load_url)
