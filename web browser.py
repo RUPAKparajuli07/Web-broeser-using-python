@@ -58,7 +58,6 @@ class MainWindow(QMainWindow):
         url = self.address_bar.text()
         self.browser.setUrl(QUrl(url))
         
-
     def search(self):
         search_term = self.search_bar.text()
         url = "https://www.google.com/search?q=" + search_term
