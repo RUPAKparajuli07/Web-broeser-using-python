@@ -46,8 +46,6 @@ class MainWindow(QMainWindow):
         self.search_bar.returnPressed.connect(self.search)
         navigation_bar.addWidget(self.search_bar)
         
-        
-
         # Set the main window's central widget to be the browser
         self.setCentralWidget(self.browser)
 
