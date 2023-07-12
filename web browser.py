@@ -63,8 +63,7 @@ class MainWindow(QMainWindow):
         search_term = self.search_bar.text()
         url = "https://www.google.com/search?q=" + search_term
         self.browser.setUrl(QUrl(url))
-
-
+        
 app = QApplication(sys.argv)
 QApplication.setApplicationName("RPBrowser")
 window = MainWindow()
